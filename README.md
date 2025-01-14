@@ -24,9 +24,13 @@ Slackのチームに所属するユーザを取得し、Google SpreadSheetに書
 ### Google SpreadSheetのIDの取得方法
 
 1. GASファイルの作成に利用したGoogle SpreadSheetを開く
+![image](https://github.com/user-attachments/assets/66971cad-5ed5-40ac-8b4d-cee36dbe99aa)
 1. ドキュメントのURLをコピーする
     - `https://docs.google.com/spreadsheets/d/1234567890/edit#gid=0` の `1234567890` の部分がIDです
 1. このIDをスクリプトプロパティの`GOOGLE_SPREADSHEET_ID`に設定します
+
+最終的に以下のようになります
+![image](https://github.com/user-attachments/assets/8c3ede51-b0ed-476d-9079-7196c9f848b8)
 
 ## 注意点
 
